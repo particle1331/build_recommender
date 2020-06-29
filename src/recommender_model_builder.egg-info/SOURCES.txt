@@ -1,9 +1,0 @@
-LICENSE
-MANIFEST.in
-README.md
-setup.py
-src/recommenderutils.py
-src/recommender_model_builder.egg-info/PKG-INFO
-src/recommender_model_builder.egg-info/SOURCES.txt
-src/recommender_model_builder.egg-info/dependency_links.txt
-src/recommender_model_builder.egg-info/top_level.txt
