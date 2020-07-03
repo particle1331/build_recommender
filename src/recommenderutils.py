@@ -68,7 +68,7 @@ class CFRecommender_KNN:
         ranking = self.utility_matrix[user]
         for item in ranking.index:
             sim = self.similarity_matrix[item].iloc[np.argpartition(-self.similarity_matrix[item].values, self.k)[:self.k]]
-            if sum(sim.values == 0):
+            if sum(sim.values) == 0:
                 ranking.loc[item] = 0
             else:
                 # smoothen by adding a constant
